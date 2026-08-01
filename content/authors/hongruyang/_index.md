@@ -16,6 +16,9 @@ superuser: false
 # Role/position
 role: Co-directed by Associate Prof. Yikun Hu and Jie Zhao (start from 2025)
 
+# External homepage (used by the People page)
+external_link: https://hpcyhr.github.io/
+
 # Organizations/Affiliations
 organizations:
   - name: Hunan University
