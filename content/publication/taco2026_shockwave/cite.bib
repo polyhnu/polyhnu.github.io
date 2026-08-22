@@ -1,0 +1,14 @@
+@article{10.1145/3842760,
+author = {Zhang, Zuoyan and Zhang, Zhiqiang and Wang, Nanqin and Wang, Jinyi and Zhao, Jie},
+title = {Memory-Safe Hierarchical Planning for Hybrid-Parallel Transformer Training},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1544-3566},
+url = {https://doi.org/10.1145/3842760},
+doi = {10.1145/3842760},
+abstract = {Training decoder-style Transformer models at scale requires composing data, tensor, pipeline, context, and, for sparse models, expert parallelism under tight device memory limits. Without a reliable pre-profiling admission model, algebraically legal but memory-infeasible configurations can consume profiling budget without yielding useful throughput measurements. Choosing a pipeline degree also leaves a structured layer-to-stage mapping problem unresolved. This paper presents Shockwave, a hierarchical planner that operates through the exposed launcher and partition interfaces of Megatron-style dense and sparse Transformer runtimes. Shockwave first builds a conservative memory-feasible region with an analytical model and backend-calibrated safety margins. It then profiles a balanced baseline and a few single-dimension anchors to learn which parallel degrees improve throughput most on the target runtime and uses that ranking to select a global strategy. Finally, it solves a mixed-integer program for stage-aware layer allocation under a fixed 1F1B pipeline schedule. Implemented as a thin control layer on top of Megatron-LM and MindSpeed, Shockwave matches or exceeds expert-curated plans, achieving geometric mean throughput gains of 1.08 {\texttimes} over expert-tuned Megatron hybrid configurations on GPUs and 1.04 {\texttimes} over expert MindSpeed recipes on NPUs. Relative to the evaluated automatic baselines, it improves throughput by 1.33 {\texttimes} on GPUs and 1.10 {\texttimes} on NPUs while reducing configuration search time by 4.59 {\texttimes} and 5.60 {\texttimes}.},
+journal = {ACM Trans. Archit. Code Optim.},
+month = aug,
+keywords = {large language model training, automatic parallelism, hybrid parallelism, memory-feasibility modeling, pipeline parallelism, execution-plan synthesis}
+}
