@@ -8,6 +8,43 @@
   justify-content: center;
 }
 
+// CCF rank badges displayed after publication action buttons
+.ccf-rank-badge {
+  border-style: solid;
+  border-width: 1px;
+  cursor: default;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.ccf-rank-a {
+  border-color: #9a3412;
+  background: #c84f12;
+  box-shadow: 0 1px 3px rgba(154, 52, 18, 0.25);
+  color: #fff;
+}
+
+.ccf-rank-b {
+  border-color: #8eb7ea;
+  background: #eaf2ff;
+  color: #245ea8;
+}
+
+.ccf-rank-c {
+  border-color: #aab7c4;
+  background: #edf1f5;
+  color: #536678;
+}
+
+.ccf-rank-non-ccf {
+  border-color: #d8d4ce;
+  background: #f5f4f2;
+  color: #77736e;
+}
+
 // Publication entries on author profile pages
 .publication-card {
   display: grid;

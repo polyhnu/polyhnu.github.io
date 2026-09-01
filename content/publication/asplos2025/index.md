@@ -43,6 +43,7 @@ publication_types: ['paper-conference']
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems*
 publication_short: In *ASPLOS 2025*
+ccf_rank: A
 
 abstract: "Inter-operator optimization in deep neural networks (DNNs) relies on accurate data dependency analysis. Traditional machine learning compilers (MLCs) perform static data dependency analysis at the element and operator levels, leading to two key limitations: complex dependencies that hinder efficient inter-operator optimizations, and overlooked parallelizable computations that underutilize GPU resources. We introduce BlockDepend, a novel MLC framework that addresses these issues through block-level dependency analysis. By examining the lower-level phases of compilation, BlockDepend extracts crucial block-level dependency information, simplifying complex relationships between operators and uncovering hidden parallelization opportunities. This allows for targeted optimization strategies that enhance memory access efficiency and improve GPU utilization. Our experiments demonstrate BlockDepend's effectiveness, achieving speedups of 1.71× and 2.88× compared to NVIDIA TensorRT and AMD MIGraphX, respectively, across various workloads."
 

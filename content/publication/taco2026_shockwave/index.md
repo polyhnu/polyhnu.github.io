@@ -33,6 +33,7 @@ publication_types: ['article-journal']
 # Publication name and optional abbreviated publication name.
 publication: 'ACM Transactions on Architecture and Code Optimization'
 publication_short: 'In *TACO 2026*'
+ccf_rank: A
 
 abstract: >-
   Training decoder-style Transformer models at scale requires composing data,

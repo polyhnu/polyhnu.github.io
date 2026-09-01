@@ -33,6 +33,7 @@ publication_types: ['paper-conference']
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the 25th IEEE International Conference on Software Quality, Reliability and Security*
 publication_short: In *QRS 2025*
+ccf_rank: C
 
 abstract: "Floating-point error detection is crucial in numerical computing, particularly for multi-parameter functions where even minor errors can propagate and significantly impact results. The sparse distribution of floating-point errors poses a significant detection challenge, as significant deviations are triggered by only rare inputs. Existing search algorithms face two major limitations: poor scalability for multi-parameter functions and insufficient utilization of floating-point representation characteristics. To address these challenges, we propose SDPS (Scalable Detection via Parallel Subdomain Search), a novel algorithm that combines adaptive domain partitioning with floating-point-specific heuristics. SDPS employs a multi-level error classification system and specialized point generation strategies, supported by efficient parallel processing through dynamic task allocation. Our comprehensive evaluation demonstrates that SDPS significantly outperforms state-of-the-art methods in both detection accuracy and computational efficiency, especially for multi-parameter functions where it effectively addresses the exponential growth of search space that limits existing approaches."
 

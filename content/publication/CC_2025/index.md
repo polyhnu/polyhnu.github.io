@@ -33,6 +33,7 @@ publication_types: ['paper-conference']
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the ACM SIGPLAN 2025 International Conference on Compiler Construction*
 publication_short: In *CC 2025*
+ccf_rank: B
 
 abstract: "This paper introduces PLOS, a novel post-link outlining approach designed to enhance code size reduction for resource-constrained environments. Built on top of a post-link optimizer BOLT, PLOS maintains a holistic view of the whole-program structure and behavior, utilizing runtime information while preserving standard build system flows. The approach includes a granular outlining algorithm that matches and replaces repeated instruction sequences within across modules and outlined functions, along with careful stack frame management to ensure correct function call handling. By integrating profiling information, PLOS balances the trade-off between code size and execution efficiency. The evaluation using eight MiBench benchmarks on an ARM-based Phytium FCT662 core demonstrates that PLOS achieves a mean code size reduction of 10.88% (up to 43.53%) and 6.61% (up to 14.78%) compared to LLVM’s and GCC’s standard optimization, respectively, 1.76% (up to 4.75%) over LLVM’s aggressive code size reduction optimizations, and 2.88% (up to 8.56%) over a link-time outliner. The experimental results also show that PLOS can achieve a favorable balance between code size reduction and performance regression."
 

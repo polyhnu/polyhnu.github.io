@@ -41,6 +41,7 @@ publication_types: ['paper-conference']
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the 30th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming*
 publication_short: In *PPoPP 2025*
+ccf_rank: A
 
 abstract: "Deep neural networks (DNNs) increasingly rely on parallel structures to enhance performance and efficiency. However, existing machine learning compilers (MLCs) face challenges in optimizing these structures due to limited parallel fusion scopes and insufficient consideration of intra-operator information. This paper introduces Magneto, a novel framework designed to accelerate parallel structures in DNNs through the co-optimization of parallel operators. By expanding the scope of parallel operator fusion and introducing a dedicated co-tuning algorithm, Magneto unlocks new opportunities for co-optimization. Experimental results demonstrate that Magneto outperforms NVIDIA TensorRT and AMD MIGraphX, achieving speedups of 3.02× and 4.19×, respectively."
 

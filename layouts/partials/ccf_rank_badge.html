@@ -1,0 +1,8 @@
+{{ with .Params.ccf_rank }}
+  {{ $rank := lower . }}
+  {{ $label := . }}
+  {{ if in (slice "a" "b" "c") $rank }}
+    {{ $label = printf "CCF %s" (upper $rank) }}
+  {{ end }}
+  <span class="btn btn-page-header btn-sm ccf-rank-badge ccf-rank-{{ $rank }}">{{ $label }}</span>
+{{ end }}

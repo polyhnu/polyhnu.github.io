@@ -55,6 +55,7 @@ publication_types: ['paper-conference']
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the 53rd Annual International Symposium on Computer Architecture*
 publication_short: In *ISCA 2026*
+ccf_rank: A
 
 abstract: ''
 

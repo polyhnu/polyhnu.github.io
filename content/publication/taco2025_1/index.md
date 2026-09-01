@@ -43,6 +43,7 @@ publication_types: ["article-journal"]
 # Publication name and optional abbreviated publication name.
 publication: "ACM Transactions on Architecture and Code Optimization "
 publication_short: In *TACO 2025*
+ccf_rank: A
 
 abstract: Parallel structures have become a key pattern in deep neural networks (DNNs), offering improved efficiency and scalability. However, existing machine learning compilers (MLCs) face challenges in optimizing these structures due to limited parallel fusion scope and insufficient analysis of intra-operator characteristics. This article introduces Magneto, a framework designed to accelerate DNN inference by co-optimizing parallel operators. Magneto broadens the fusion scope and incorporates a specialized co-tuning algorithm to optimize operators jointly. Our approach addresses the unique challenges inherent in optimizing parallel structures, enabling significant performance improvements across various hardware platforms. Experimental results show that Magneto outperforms state-of-the-art NVIDIA TensorRT and AMD MIGraphX, achieving geometric mean speedups of 2.27× and 2.88×, respectively.
 
