@@ -42,7 +42,7 @@ author_notes:
   - 'Corresponding author'
 
 date: '2026-06-01T00:00:00Z'
-doi: ''
+doi: '10.1109/ISCA66397.2026.00174'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2026-06-01T00:00:00Z'
@@ -60,14 +60,14 @@ ccf_rank: A
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: In *Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA 2026), Raleigh, NC, USA. Jun-Jul 2026. To appear.*
+summary: In *Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA 2026), Raleigh, NC, USA. Jun-Jul 2026, pp. 2490–2504.*
 
 tags: []
 
 # Display this page in the Featured widget?
 featured: true
 
-url_pdf: ''
+url_pdf: 'https://www.computer.org/csdl/proceedings-article/isca/2026/506500c490/2iG11sQcDlK'
 url_code: ''
 url_dataset: ''
 url_poster: ''
